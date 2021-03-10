@@ -37,7 +37,7 @@ export class Login extends Component {
               <label>Password</label>
               <input
                 type="password"
-                className="from-control"
+                className="form-control"
                 name="password"
                 onChange={this.onChange}
                 value={password}
@@ -49,7 +49,7 @@ export class Login extends Component {
               </button>
             </div>
             <p>
-              Don't have an account?<Link to="/register">Register</Link>
+              Don't have an account?<Link to="/register/">Register</Link>
             </p>
           </form>
         </div>
